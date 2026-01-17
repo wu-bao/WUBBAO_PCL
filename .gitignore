@@ -1,0 +1,50 @@
+# 构建产物
+dist/
+build/
+*.spec
+
+# Python相关
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# IDE相关
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 操作系统相关
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+*.log.*
+
+# 临时文件
+.trae/
+*.tmp
+*.temp
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 测试数据
+*.test
+*.sample
+
+# 许可证密钥文件
+*.key
+*.pem
+*.cer
+
+# 打包文件
+*.zip
+*.tar.gz
+*.rar
