@@ -27,15 +27,10 @@
 2. 直接双击运行根目录下的 `PCL_Installer_Generator.exe` 文件
 3. 等待程序启动，开始使用！
 
-### 方法2：启动脚本（需要Python环境）
-1. 下载项目压缩包并解压
-2. 双击运行 `启动生成器.bat` 文件
-3. 等待程序启动，开始使用！
-
-### 方法3：手动启动（需要Python环境）
+### 方法2：手动启动（需要Python环境）
 1. 打开命令提示符
 2. 进入项目目录
-3. 输入 `python -m src.main` 并回车
+3. 输入 `python src/main.py` 并回车
 
 ## 🚀 使用教程
 
@@ -83,7 +78,6 @@
 #### 步骤1：启动EXE生成器
 1. 找到解压后的项目文件夹
 2. 直接双击运行 `PCL_Installer_Generator.exe`（无需Python环境）
-   - 或双击运行 `启动生成器.bat`（需要Python环境）
 3. 等待程序启动，你将看到一个友好的图形界面
 4. 界面上方显示 `🎮 PCL整合包EXE生成器 🎮` 标题
 
@@ -150,7 +144,6 @@ PCL整合包EXE生成器/          # 项目主文件夹
 ├── dist/                   # 生成的EXE文件存放目录
 ├── .github/                # GitHub Actions配置
 ├── PCL_Installer_Generator.exe  # 预编译生成器（无需Python环境）
-├── 启动生成器.bat          # 双击启动脚本
 ├── README.md               # 项目说明文档
 └── requirements.txt        # Python依赖列表
 ```
